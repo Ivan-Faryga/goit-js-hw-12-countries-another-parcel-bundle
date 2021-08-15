@@ -1,3 +1,108 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+body,
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  display: block;
+  min-width: 100%;
+}
+
+.list {
+  list-style: none;
+}
+
+// .main-container {
+//   position: absolute;
+//   top: 50%;
+//   left: 50%;
+//   transform: translate(-50%, -50%);
+//   width: 500px;
+//   height: 500px;
+//   border-radius: 20px;
+//   z-index: 1;
+//   backdrop-filter: blur(2px);
+//   background-color: rgba(192, 192, 192, 0.5);
+//   backdrop-filter: 0.3;
+// }
+
+body {
+  background: url(../images/globe.svg);
+  background-position: initial;
+  background-repeat: no-repeat;
+}
+
+.wrapper {
+  width: 1200px;
+  height: 100%;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+
+  //   &:hover .input,
+  //   &:focus .input {
+  //     background: url(../images/globe.svg);
+  //   }
+}
+
+.main-container_title {
+  margin-top: 100px;
+  text-align: center;
+}
+
+.form {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.input {
+  margin-top: 20px;
+  border-radius: 5px;
+  background-color: rgba(255, 192, 203, 0.925);
+  border: rgb(0, 191, 255);
+
+  &:hover,
+  &:focus {
+    background-color: rgba(0, 191, 255, 0.5);
+    border: rgb(0, 191, 255);
+  }
+}
+
+.card {
+  margin-top: 20px;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  align-items: start;
+  justify-content: center;
+}
+
+.card-content {
+  margin-right: 30px;
+}
+
+.card-content__item {
+  margin-top: 10px;
+}
+
+.countries-list {
+  text-align: center;
+  margin-top: 20px;
+}
+
 .country {
   cursor: pointer;
+  margin-bottom: 10px;
 }

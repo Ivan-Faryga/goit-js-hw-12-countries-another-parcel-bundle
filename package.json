@@ -6,7 +6,9 @@
   "homepage": "https://Ivan-Faryga.github.io/goit-js-hw-12-countries-another-parcel-bundle",
   "scripts": {
     "dev": "parcel src/*.html",
-    "build": "parcel build src/*.html --public-url /goit-js-hw-12-countries-another-parcel-bundle/"
+    "build": "parcel build src/*.html --public-url /goit-js-hw-12-countries-another-parcel-bundle/",
+    "deploy": "gh-pages -d dist",
+    "predoploy": "npm run build"
   },
   "repository": {
     "type": "git",
@@ -27,6 +29,7 @@
   },
   "dependencies": {
     "@pnotify/core": "^5.2.0",
+    "gh-pages": "^3.2.3",
     "lodash.debounce": "^4.0.8"
   }
 }

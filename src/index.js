@@ -44,7 +44,7 @@ function renderCountryCard(country) {
 
 function renderCountryList(countries) {
   const renderList = countries.map(country => countryListTpl(country)).join('');
-  refs.output.innerHTML = `<ul class="countries-list">${renderList}</ul>`;
+  refs.output.innerHTML = `<ul class="countries-list list">${renderList}</ul>`;
 }
 
 function onListItemClick(event, countries) {
